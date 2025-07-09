@@ -9,7 +9,6 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="./style.css" />
     <title>TechMarket</title>
   </head>
@@ -22,6 +21,15 @@
           <li><a href="#produkty">Produkty</a></li>
           <li><a href="#promocje">Promocje</a></li>
           <li><a href="#kontakt">Kontakt</a></li>
+          <div class="search-container">
+            <input
+              class="search-container"
+              type="text"
+              id="filterInput"
+              placeholder="Szukaj..."
+            />
+          </div>
+          <div id="cart">Koszyk: <span id="cart-count">0</span></div>
         </ul>
       </nav>
     </header>
@@ -87,6 +95,7 @@
           <a href="#" class="btn">Dodaj do koszyka</a>
         </div>
       </section>
+      <section class="products" id="product-list"></section>
     </main>
     <footer id="kontakt">
       <p>
