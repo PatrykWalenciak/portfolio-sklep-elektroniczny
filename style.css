@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 :root {
   --primary: #1e90ff;
   --primary-hover: #0f75d1;
@@ -8,6 +9,7 @@ html {
   --text: #333;
   --highlight: #ff4757;
 }
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -45,7 +47,7 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: var(--text);
-  transition: color 03s;
+  transition: color 0.3s;
 }
 
 nav ul li a:hover {
@@ -74,7 +76,7 @@ nav ul li a:hover {
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
-  transition: var(--background) 0.3s;
+  transition: background-color 0.3s;
 }
 
 .hero a:hover {
