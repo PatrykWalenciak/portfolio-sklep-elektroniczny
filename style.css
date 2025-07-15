@@ -1,3 +1,17 @@
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  #cart {
+    position: static;
+    margin-top: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
